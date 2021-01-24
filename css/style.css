@@ -1,0 +1,56 @@
+body{
+    background-image: url("../images/galaxy.jpg");
+    }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+h1{
+    text-transform: uppercase;
+    color: lightskyblue;
+    background-color: #0003;
+    font-size: 110px;
+
+}
+.system{
+    background-color: black;
+    overflow: auto;
+}
+.system h2{
+    float: left;
+    font-size: 100px;
+
+    color: lightskyblue;
+    background-color: #000;
+}
+.system img{
+    width: 600px;
+    float: right;
+}
+.planets{
+    background-color: #0006;
+}
+.planets img{
+    width: 216px;
+
+}
+.planets p{
+    text-transform: uppercase;
+    color: lightskyblue;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.item_planet{
+    width: 300px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.facts{
+    color: lightskyblue;
+    background-color: #0008;
+    font-size: 27px;
+    text-align: left;
+}
