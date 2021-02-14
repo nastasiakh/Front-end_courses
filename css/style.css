@@ -49,14 +49,99 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-
 }
 h1{
     text-transform: uppercase;
     color: lightskyblue;
     background-color: #0003;
     font-size: 110px;
-
+}
+nav{
+    background-color: #0006;
+    height: 30px;
+    padding: 10px;
+}
+.width-33{
+    width: 33%;
+}
+.parent-flex{
+    display: flex;
+    font-size: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-parent-flex{
+    display: flex;
+    font-size: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.menu > li{
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+}
+.menu > li > a{
+    text-decoration: none;
+    color: rgba(125, 199, 246, 0.41);
+}
+.menu > li > a:hover{
+    color: lightskyblue ;
+}
+.menu > li > a:visited{
+    text-decoration: none;
+}
+.animated a{
+    transition-property: background-position;
+    transition-duration: 1.5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+}
+.s_media-parent-flex{
+    display: flex;
+    font-size: 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.s_media > ul{
+    font-size: 0;
+    list-style: none;
+}
+.s_media > li {
+    font-size: 20px;
+}
+.s_media > li > a{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/social-media-sprite.png);
+    background-size: 240px;
+    border-radius: 50%;
+    background-position: -4px 42px;
+}
+.s_media li + li> a{
+    background-position: 142px 42px;
+}
+.s_media li + li + li > a{
+    background-position: 95px 42px;
+}
+.s_media li + li + li + li > a{
+    background-position: 49px 42px;
+}
+.s_media > li > a:hover{
+    background-position: -4px 85px;
+}
+.s_media li + li> a:hover{
+    background-position: 142px 85px;
+}
+.s_media li + li + li > a:hover{
+    background-position: 95px 85px;
+}
+.s_media li + li + li + li > a:hover{
+    background-position: 49px 85px;
 }
 .system{
     background-color: black;
@@ -67,7 +152,6 @@ h1{
     text-align: center;
     position: relative;
 }
-
 .system h2{
     font-size: 100px;
     color: lightskyblue;
